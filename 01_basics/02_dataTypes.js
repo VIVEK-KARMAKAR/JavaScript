@@ -17,7 +17,7 @@ There are 7 primitive data types :--
 There is only one non-primitive or complex data-type in JavaScript 
     ~Object [user-defined data_type]
 */
-
+const admissionNumber = Symbol()
 let student = {                                      // object 
 
     fullName: "Vivek Karmakar",                       // string
@@ -26,7 +26,7 @@ let student = {                                      // object
     referralName: null,                              // null
     referralD: undefined,                            // undefined
     admissionStatus: true,                          // boolean
-    admissionNumber: Symbol("NSU2203253"),        // symbol
+    [admissionNumber]: Symbol("NSU2203253"),        // symbol
 
 }
 // console.log(student);
