@@ -7,7 +7,7 @@ There are 7 primitive data types :--
     ~ String         "stringInstance"
     ~ Number       32
     ~ BigInt         8987937483434n
-    ~ Boolean       True
+    ~ Boolean       True/False
     ~ Null          null
     ~ Undefined 
     ~ Symbol
